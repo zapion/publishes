@@ -1,3 +1,5 @@
+## 安裝 M1 架構 Mac 的 Docker desktop 替代方案 - Podman
+
 因為 Docker desktop 已經準備要收費了, Mac 上參考還能使用的替代方案, redhat podman 是一個選擇. 一般的 intel architecture 可以選擇使用 Virtualbox 的 VM 當作 docker daemon, 本篇主要想解決 M1 架構的 docker 替代品.
 
 目前來說 Podman 已經支援 M1 Mac 了, 安裝也很簡單是透過 homebrew 去執行. 搞了一天, 遇到比較大的問題在 homebrew 本身的相容性.
